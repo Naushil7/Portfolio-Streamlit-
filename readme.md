@@ -35,16 +35,41 @@ Welcome to my personal portfolio! This project is a showcase of my professional 
 Here’s an overview of the structure of this project:  
   
 ├── assets  
-│   ├── readme.md       # Markdown file containing details about me  
-│   ├── Resume.pdf      # My resume, available for download  
+│   ├── readme.md       **# Markdown file containing details about me**  
+│   ├── Resume.pdf      **# My resume, available for download**  
   
 ├── tabs  
-│   ├── home.py         # Home page content  
-│   ├── resume.py       # Resume viewer code  
-│   ├── projects.py     # My projects display  
-│   ├── contact.py      # Contact details and form  
+│   ├── home.py         **# Home page content**  
+│   ├── resume.py       **# Resume viewer code**
+│   ├── projects.py     **# My projects display**  
+│   ├── contact.py      **# Contact details and form**  
   
-├── app.py              # Main app entry point  
-├── Dockerfile          # Docker configuration for containerization  
-├── requirements.txt    # Python dependencies for the project  
-├── README.md           # This file  
+├── app.py              **# Main app entry point**  
+├── Dockerfile          **# Docker configuration for containerization**  
+├── requirements.txt    **# Python dependencies for the project**  
+├── README.md           **# This file**  
+
+
+---
+
+## 📦 How to Run Locally
+
+Follow these steps to run the project on your local machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Naushil7/your-repo-name.git
+
+2. **Navigate into the project directory:** 
+    ```bash
+    cd your-repo-name
+
+3. **Install the required dependencies:** 
+    ```bash
+    pip install -r requirements.txt
+
+
+4. **Run the Streamlit app:** 
+    ```bash
+    streamlit run app.py
+

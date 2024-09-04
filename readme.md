@@ -84,7 +84,8 @@ Follow these steps to run the project on your local machine:
 ```
   ## gcloud builds submit --tag gcr.io/<ProjectName>/<AppName>  --project=<ProjectName>
   gcloud builds submit --tag gcr.io/data-portfolio-v1/portfolio  --project=data-portfolio-v1
-
+```
+```
   ## gcloud run deploy --image gcr.io/<ProjectName>/<AppName> --platform managed  --project=<ProjectName> --allow-unauthenticated
   gcloud run deploy --image gcr.io/data-portfolio-v1/portfolio --platform managed  --project=data-portfolio-v1 --allow-unauthenticated
 ```

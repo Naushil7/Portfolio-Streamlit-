@@ -43,11 +43,13 @@ Here’s an overview of the structure of this project:
 ├── assets  
 │   ├── readme.md       # Markdown file containing details about me  
 │   ├── Resume.pdf      # My resume, available for download  
+  
 ├── tabs  
 │   ├── home.py         # Home page content  
 │   ├── resume.py       # Resume viewer code  
 │   ├── projects.py     # My projects display  
 │   ├── contact.py      # Contact details and form  
+  
 ├── app.py              # Main app entry point  
 ├── Dockerfile          # Docker configuration for containerization  
 ├── requirements.txt    # Python dependencies for the project  

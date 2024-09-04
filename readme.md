@@ -6,12 +6,6 @@ Welcome to my personal portfolio! This project is a showcase of my professional 
 
 ---
 
-## 💡 About Me
-
-I am a passionate data scientist and machine learning enthusiast, always eager to turn complex data into actionable insights. I enjoy solving challenges with data-driven approaches and continuously learning new technologies.
-
----
-
 ## 🎨 Features
 
 - **Home Page**: Overview of my professional journey, including skills, education, and career highlights.

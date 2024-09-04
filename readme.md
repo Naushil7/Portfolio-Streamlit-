@@ -72,3 +72,20 @@ Follow these steps to run the project on your local machine:
     ```bash
     streamlit run app.py
 
+---
+
+## 🚀 How to Deploy on GCP
+
+1. **Create a Project on GCP**
+
+2. **Add a billing method and then intialize your project on local machine**
+
+2. **Use the below commands in the GCP Terminal to deploy this project on GCP:**
+```
+  ## gcloud builds submit --tag gcr.io/<ProjectName>/<AppName>  --project=<ProjectName>
+  gcloud builds submit --tag gcr.io/data-portfolio-v1/portfolio  --project=data-portfolio-v1
+
+  ## gcloud run deploy --image gcr.io/<ProjectName>/<AppName> --platform managed  --project=<ProjectName> --allow-unauthenticated
+  gcloud run deploy --image gcr.io/data-portfolio-v1/portfolio --platform managed  --project=data-portfolio-v1 --allow-unauthenticated
+```
+

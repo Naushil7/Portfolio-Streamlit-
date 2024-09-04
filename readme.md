@@ -48,7 +48,7 @@ Here’s an overview of the structure of this project:
     ├── Dockerfile          **# Docker configuration for containerization**  
     ├── requirements.txt    **# Python dependencies for the project**  
     ├── README.md           **# This file**  
-
+```
 
 ---
 
